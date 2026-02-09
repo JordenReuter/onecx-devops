@@ -105,3 +105,7 @@ module "onecx-ai-provider" {
 module "onecx-chat" {
   source = "./products/onecx-chat"
 }
+
+module "onecx-service" {
+  source = "./products/onecx-service"
+}
